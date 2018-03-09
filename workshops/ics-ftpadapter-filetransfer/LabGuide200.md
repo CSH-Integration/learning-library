@@ -36,37 +36,61 @@ Connections allow Integration Cloud to interact with an application instance. A 
     ![](images/200/Lab200_002.png)    
 
 - In the **Connection** page, click **Create**.
+
 - Type `ftp` in the Select Adapter Search field, click **FTP** in the resulting drop-down, and then select the **FTP** adapter.
 
     ![](images/200/Lab200_003.png)    
 
 - Enter the following connection information in the **Create New Connection** dialog.
+
   - **Name**: `FTPConnection_XX` (where `XX` should be your initials)
+  
   - **Identifier**: Auto generated (keep default value)
+  
   - **Role**: Trigger and Invoke (keep default value)
+  
   - **Description**:  `This is an FTP connection to public ftp server "speedtest.tele2.net" used by Oracle Samples.`
+  
   - Click **Create** to complete the connection properties.
+  
 - In the **Email Address** field of the Connection Administrator section, enter your email address.
+
 - Click **Configure Connectivity** to configure the FTP URL. Enter the following information in the **Connection Properties** dialog (only required fields are shown):
+
   - **FTP Server Host Address**: `speedtest.tele2.net`
+  
   - **FTP Server Port**: `21` 
+  
   - Click **OK**.
+  
 - Next, click **Configure Security** to configure the connection security settings. Enter the following information in the **Credentials** dialog (only required fields are shown):
+
   - For **Security Policy**, select **FTP Server Access Policy**.
+  
   - **User name**: `anonymous`
+  
   - **Password**: `<choose any>` (the security level is low as it's a public FTP server)
+  
   - Click **OK** to save settings. 
+  
 - You will notice the connection is not complete at this point. In the top right corner, Click **Test** to verify and complete the connection.
+
 
     ![](images/200/Lab200_004.png)    
 
   - In the **Test Connection?** dialog, click **Test**. 
+  
      ![](images/200/Lab200_005.png)    
+     
 - If the test is successful, you see the following message at the top of the window.
+
     ![](images/200/Lab200_006.png)
+    
 ```
 If the test is _not successful_, then verify the connection properties. If the problem still persists, then please log an issue (explained in the **Introduction** section).
 ```
+
+
 
 ### **STEP 2**: Test the connection
 
