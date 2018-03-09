@@ -91,54 +91,8 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 - Click **Save**, then click **Close**.
 
-- Validate the _check-mark_ on your connection in the **Connection** page.
+The new connection is added to the top of the connections list.Validate the _check-mark_ on your connection in the **Connections** page.
   
     ![](images/200/Lab200_007.png)    
 
 > If the test is _not successful_, then verify the connection properties. If the problem still persists, then please log an issue (explained in the **Introduction** section).
-
-
-
-
-- On the **Microservices** Board, click **Active Sprints**
-
-    ![](images/200/Picture13.png)  
-
-## Create Initial Git Repository
-
-### **STEP 3**: Create Initial Git Repository
-
-To begin development on our Twitter feed microservices, we could start coding from scratch. However, prior to the formal kickoff of this project, you (as Bala Gupta) have already started doing some proof-of-concept development outside of the Developer Cloud Service in order to assess the feasibility of your assignment. You want to bring that existing code into the Developer Cloud Service as a starting point for your microservices. You will do that by cloning your external GIT repository into the Developer Cloud Service. Your first step will be to accept your task using the agile board.
-
-- Drag and drop **Task1 - Create Initial GIT Repository for Twitter Feed Service** into the **In Progress** swim-lane.  
-
-    ![](images/200/Picture13.5.png)  
-
-- Leave the defaults, and Click **OK**.
-
-    ![](images/200/Picture14.6.png)  
-
-- Your Sprint progress will appear as shown below.
-
-    ![](images/200/Picture16.2.png)  
-
-- In the left hand navigation panel, click **Project**
-
-- On the right side in the **REPOSITORIES** section, click on **New Repository** to create a new Git Repository.
-
-    ![](images/200/Picture17.png)  
-
-- In the New Repository wizard enter the following information and click **Create**.
-
-    **Name:** `TwitterFeedMicroservice`
-
-    **Description:** `Twitter Feed Microservice`
-
-    **Initial content:** `Import existing repository`
-
-    **Enter the URL:** `https://github.com/pcdavies/TwitterFeed.git`
-
-    ![](images/200/Picture18.2.png)  
-
-
-
