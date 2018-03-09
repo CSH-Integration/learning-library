@@ -73,8 +73,11 @@ Connections allow Integration Cloud to interact with an application instance. A 
   
   - Click **OK** to save settings. 
   
-- You will notice the connection is not complete at this point. In the top right corner, Click **Test** to verify and complete the connection.
+- You will notice the connection is not complete at this point. Proceed to the next step to finalize the connection.
 
+### **STEP 2**: Test and complete the connection
+
+- In the top right corner, Click **Test** to verify and complete the connection.
 
     ![](images/200/Lab200_004.png)    
 
@@ -85,14 +88,13 @@ Connections allow Integration Cloud to interact with an application instance. A 
 - If the test is successful, you see the following message at the top of the window.
 
     ![](images/200/Lab200_006.png)
+
+- Click **Save**, then click **Close**. 
     
-```
-If the test is _not successful_, then verify the connection properties. If the problem still persists, then please log an issue (explained in the **Introduction** section).
-```
+> If the test is _not successful_, then verify the connection properties. If the problem still persists, then please log an issue (explained in the **Introduction** section).
 
 
 
-### **STEP 2**: Test the connection
 
 - On the **Microservices** Board, click **Active Sprints**
 
@@ -185,5 +187,6 @@ To generate the unique twitter credentials for our microservices, we need to sig
 - The example below shows the live tweets returned, once the application is re-deployed.
 
     ![](images/200/image132.png)
+
 
 
