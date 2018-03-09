@@ -28,9 +28,17 @@ Connections allow Integration Cloud to interact with an application instance. A 
 ### **STEP 1**: Configure the connection properties
 
 - Start **Integration Cloud** and click on **Integrations**.
-
     ![](images/200/Lab200_001.png)    
-- 
+- In the resulting **Integrations** navigation pane, click **Connections**.
+    ![](images/200/Lab200_002.png)    
+- In the **Connection** page, click **Create**.
+- Type `ftp` in the Select Adapter Search field, click **FTP** in the resulting drop-down, and then select the **FTP** adapter.
+    ![](images/200/Lab200_003.png)    
+- Enter the following connection information in the **Create New Connection** dialog.
+  - **Name**: `FTPConnection_XX` (where `XX` should be your initials)
+  - **Identifier**: Auto generated (leave default)
+  - **Role**: Trigger and Invoke (leave default)
+  - **Description**:  `This is an FTP connection to public ftp server "speedtest.tele2.net" used by Oracle Samples.`
 
 ### **STEP 2**: Test the connection
 
