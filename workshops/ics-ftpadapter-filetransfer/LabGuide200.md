@@ -28,6 +28,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
 ### **STEP 1**: Configure the connection properties
 
 - Start **Integration Cloud** and click on **Integrations**.
+
     ![](images/200/Lab200_001.png)    
 - 
 
