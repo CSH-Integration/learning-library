@@ -8,7 +8,7 @@ Updated: 09-Mar-2018
 
 This sample demonstrates how to read an opaque file from a "/" directory and write the file to an "/upload" directory in a scheduled orchestrated integration. An FTP Adapter reads the file from the / directory and another FTP Adapter writes the file to the /upload directory. An assign action is configured to assign variables for the file name and file size. A logging message is created to indicate that the file name has been read. The message is logged to the activity stream for viewing. You also track the integration and monitor message status.
 
-    ![](images/sample/sample_001.png)
+![](images/sample/sample_001.png)
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
