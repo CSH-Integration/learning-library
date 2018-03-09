@@ -89,8 +89,12 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
     ![](images/200/Lab200_006.png)
 
-- Click **Save**, then click **Close**. 
-    
+- Click **Save**, then click **Close**.
+
+- Validate the _check-mark_ on your connection in the **Connection** page.
+  
+    ![](images/200/Lab200_007.png)    
+
 > If the test is _not successful_, then verify the connection properties. If the problem still persists, then please log an issue (explained in the **Introduction** section).
 
 
@@ -135,58 +139,6 @@ To begin development on our Twitter feed microservices, we could start coding fr
     **Enter the URL:** `https://github.com/pcdavies/TwitterFeed.git`
 
     ![](images/200/Picture18.2.png)  
-
-
-
-### **STEP 17**: Create New Twitter App
-
-To generate the unique twitter credentials for our microservices, we need to sign in to twitter and create a new application for this project, then generate access tokens for it.
-
-- Navigate to https://apps.twitter.com. Click on the **Sign In** link.
-
-    ![](images/200/image119.png)  
-
-- If you are already a twitter user, **Log In** using your twitter credentials. Otherwise, click on the **Sign up Now** link
-
-    ![](images/200/image120.png)  
-
-- Once logged in, click on the **Create New App** button.
-
-    ![](images/200/image121.png)  
-
-- **Enter the following** and Click on the **Create your Twitter application** button. When entering the Application Name, append something unique to the Name’s end. E.g. your initials or name:
-
-  **Name:** `JavaTwitterMicroservice<UniqueName>`
-
-  **Description:** `A Twitter Feed Microservice`
-
-  **Website:** `https://cloud.oracle.com/acc`
-
-  **Developer Agreement:** Click `Yes`
-
-    ![](images/200/image122.png)  
-
-- Click on the **Keys and Access Tokens** tab.
-
-    ![](images/200/image123.png)  
-
-- If at the bottom of the page your Tokens are not visible, click on the **Create my access tokens** button
-
-    ![](images/200/image124.png)  
-
-- Note: If you are following **Method B**, before you start modifying code in Eclipse, you should switch to the master branch and pull from the remote repository.
-
-- Return to Eclipse, and in the Project Explorer tab, expand **TwitterFeedMicroservices.git > src/main/config** and double click on **twitter-auth.json** to load the source.
-
- that deployment is successful before continuing.
-
-- If you’re following **Method B**, now that you’ve enabled this new feature to access the live twitter feed, you can follow the previous steps used in this document to commit the code to the cloud. That will trigger an automatic build and cause the Application Container Cloud Service deployment to be performed by the Developer Cloud Service. Verify that deployment is successful before continuing.
-
-- For either method, you will now be able append `/tweets` to the end of the Application Container Cloud Service URL and retrieve the Live Tweets.
-
-- The example below shows the live tweets returned, once the application is re-deployed.
-
-    ![](images/200/image132.png)
 
 
 
