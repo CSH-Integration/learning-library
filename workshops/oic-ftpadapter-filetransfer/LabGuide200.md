@@ -20,9 +20,6 @@ In the first lab (100), we focused on provisioning the Oracle Integration Cloud 
 # Create Connection
 Connections allow Integration Cloud to interact with an application instance. A connection is required for every application instance that participates in an integration. In this lab, you will create one connection - for an FTP folder using the FTP adapter. 
 
-  - connectivity by specifying the FTP server URL
-  - Configure the security by selecting the Security Policy and credentials
-
 ## Create the FTP Connection
 
 ### **STEP 1**: Configure the connection properties
