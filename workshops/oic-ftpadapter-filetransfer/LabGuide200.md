@@ -91,7 +91,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 - Click **Save**, then click **Close**.
 
-The new connection is added to the top of the connections list.Validate the _check-mark_ on your connection in the **Connections** page.
+The new connection is added to the top of list in the **Connections** page. Validate the _check-mark_ on your connection.
   
 ![](images/200/Lab200_007.png)    
 
