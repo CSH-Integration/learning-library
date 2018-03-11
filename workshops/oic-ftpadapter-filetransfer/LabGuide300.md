@@ -55,7 +55,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
   - Click **Create** to initialize and open the integration.
 
-  ![](images/300/Lab300_004.png)   
+  ![](images/300/Lab300_005.png)   
 
 
 
