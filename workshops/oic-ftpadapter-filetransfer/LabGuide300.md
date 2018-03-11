@@ -57,6 +57,20 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
   ![](images/300/Lab300_005.png)   
 
+- In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
+
+  ![](images/300/Lab300_006.png)   
+
+- Drag and drop your connection **FTPConnection_XX** in to the circle with plus sign. You will see the plus sign twirling when ready to drop.
+
+  ![](images/300/Lab300_007.png)   
+
+- Fill in the required values on the **Basic Info** page.
+
+  - **What do you want to call your endpoint**: ``
+  - Click **Next**.
+
+
 
 
 
