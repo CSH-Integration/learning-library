@@ -16,12 +16,42 @@ In this lab, you will learn how to create a basic File Transfer integration, usi
 
 - Create your first integration to transfer a file from an inbound to an outbound folder.
 
+## Required Artifacts
+
+-   The following lab and an Oracle Public Cloud account that will be supplied by your instructor.
+
 # Create a New Integration
 Connections allow Integration Cloud to interact with an application instance. A connection is required for every application instance that participates in an integration. In this lab, you will create one connection - for an FTP folder using the FTP adapter. 
 
 ## Create the Integration
 
-### **STEP 1**: 
+### **STEP 1**:  Create a scheduled orchestrated integration
+
+- Start **Integration Cloud** and click on **Integrations**.
+
+    ![](images/300/Lab300_001.png)    
+
+- In the resulting **Designer** navigation pane, click **Integrations** (default selection).
+
+    ![](images/300/Lab300_002.png)    
+
+- In the **Integrations** pane, click on the **Create** button in the upper right.
+
+    ![](images/300/Lab300_003.png)    
+
+- In the **Create Integration - Select a Style/Pattern** popup, select the **Orchestration**
+
+    ![](images/300/Lab300_004.png)    
+
+- Fill in the **Create New Integration** form with the following information:
+
+  - **What triggers this integration?**: `Schedule`	
+
+  - **What do you want to call your integration?**: `FileTransfer_XX` (where `XX` should be your initials)
+
+  - **Identifier**: Auto generated (keep default value)
+
+  - **What does this integration do?**: `This is File Transfer integration read an opaque file from a _inbound_ directory and write the file to an _upload_ directory.`
 
 
 ## Configure the FTP Connection (ReadFile & WriteFile)
@@ -41,4 +71,5 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 
 ## Activate the Integration
+
 
