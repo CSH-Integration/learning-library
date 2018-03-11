@@ -51,7 +51,13 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
   - **Identifier**: Auto generated (keep default value)
 
-  - **What does this integration do?**: `This is File Transfer integration read an opaque file from a *inbound* directory and write the file to an *upload* directory.`
+  - **What does this integration do?**: `This is a File Transfer integration to read an opaque file from an inbound directory and write the file to an upload directory.`
+
+  - Click **Create** to initialize and open the integration.
+
+  ![](images/300/Lab300_004.png)   
+
+
 
 
 ## Configure the FTP Connection (ReadFile & WriteFile)
