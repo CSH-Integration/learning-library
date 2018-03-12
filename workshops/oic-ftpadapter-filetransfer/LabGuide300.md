@@ -107,7 +107,7 @@ Let's continue with the **WriteFile** operation.
 
 - Drag and drop your connection **FTPConnection_XX** below the **ReadFile** operation in to the circle with plus sign. You will see the plus sign twirling when ready to drop.
 
-  ![](images/300/Lab300_008.png)   
+  ![](images/300/Lab300_009.png)   
 
 
 
