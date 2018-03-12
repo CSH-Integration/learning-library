@@ -53,9 +53,20 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
   **What does this integration do?**: `This is a File Transfer integration to read an opaque file from an inbound directory and write the file to an upload directory.`
 
-  - Click **Create** to initialize and open the integration.
+  Click **Create** to initialize and open the integration.
 
   ![](images/300/Lab300_005.png)   
+
+
+
+
+    
+
+
+
+## Configure the FTP Connection (ReadFile & WriteFile)
+
+Let's start with the ReadFile operation.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
@@ -89,11 +100,10 @@ Connections allow Integration Cloud to interact with an application instance. A 
 - Click **Done**.
 
 
-    
+Let's continue with the WriteFile operation.
 
 
 
-## Configure the FTP Connection (ReadFile & WriteFile)
 
 
 
