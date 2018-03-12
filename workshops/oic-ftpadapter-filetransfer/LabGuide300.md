@@ -45,13 +45,13 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 - Fill in the **Create New Integration** form with the following information:
 
-  - **What triggers this integration?**: `Schedule`	
+  **What triggers this integration?**: `Schedule`	
 
-  - **What do you want to call your integration?**: `FileTransfer_XX` (where `XX` should be your initials)
+  **What do you want to call your integration?**: `FileTransfer_XX` (where `XX` should be your initials)
 
-  - **Identifier**: Auto generated (keep default value)
+  **Identifier**: Auto generated (keep default value)
 
-  - **What does this integration do?**: `This is a File Transfer integration to read an opaque file from an inbound directory and write the file to an upload directory.`
+  **What does this integration do?**: `This is a File Transfer integration to read an opaque file from an inbound directory and write the file to an upload directory.`
 
   - Click **Create** to initialize and open the integration.
 
@@ -65,12 +65,31 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
   ![](images/300/Lab300_007.png)   
 
-- Fill in the required values on the **Basic Info** page.
+- In the **Basic Info** page, enter `ReadFile` for endpoint name and click **Next**.
 
-  - **What do you want to call your endpoint**: ``
-  - Click **Next**.
+  
+- In the **Operations** page, enter the following information and click **Next**.
+  
+  **Select Operation**: `Read a File`
+  
+  **Select a Transfer Mode**: `Binary`
+
+  **Input Directory**: `/`
+
+  **File Name**: `1KB.zip`
+
+- In the **Schema** page, enter the following information and click **Next**.
+
+  **Do you want to define a schema for this endpoint?**: `No`
+  
+- Validate your values in the **Summary Page**.
+
+  ![](images/300/Lab300_008.png)   
+  
+- Click **Done**.
 
 
+    
 
 
 
