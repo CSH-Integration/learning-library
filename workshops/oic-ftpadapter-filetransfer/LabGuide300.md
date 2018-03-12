@@ -66,7 +66,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 ## Configure the FTP Connections (ReadFile & WriteFile)
 
-Let's start with the **ReadFile** connection.
+Let's start with the **FTP Adapter** for the **Read File** operation. We will configure a read file in binary mode from an inbound directory of the server specified in the **Connections** page. No schema is defined for this file transfer, so it is treated as an attachment.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
@@ -100,7 +100,7 @@ Let's start with the **ReadFile** connection.
 
 - Click **Save** on the main canvas to save your work.
 
-Let's continue with the **WriteFile** connection.
+Let's continue with the **FTP Adapter** for the **Write File** operation. We will configure a write file to the outbound directory on the same server specified in the **Connections** page, that matches the file name pattern of `XX_1KB%yyMMddHHmmssSS%.zip`.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
@@ -112,7 +112,7 @@ Let's continue with the **WriteFile** connection.
 
 - In the **Basic Info** page, enter `WriteFile` for endpoint name and click **Next**.
 
-- - In the **Operations** page, enter the following information and click **Next**.
+- In the **Operations** page, enter the following information and click **Next**.
   
   **Select Operation**: `Write File`
   
@@ -134,9 +134,8 @@ Let's continue with the **WriteFile** connection.
 
 - Click **Save** on the main canvas to save your work.
 
-
-
 ## Create a Logging Message
+
 
 
 ## Configure an Assign action
