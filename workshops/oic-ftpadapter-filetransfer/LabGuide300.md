@@ -134,7 +134,22 @@ Let's continue with the **FTP Adapter** for the **Write File** operation. We wil
 
 - Click **Save** on the main canvas to save your work.
 
-## Create a Logging Message
+## Create Logging Messages
+A logging message is created to indicate that the file name has been read. Another logging message is created to indicate the file name has been uploaded to the `/upload` directory Both messages are logged to the activity stream.
+
+Let's start with the first **Logger** action to indicate a file read.
+
+- In the **Action** panel,  drag and drop the **Logger** action after the **ReadFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
+
+  ![](images/300/Lab300_011.png)   
+
+- In the **Create Action** wizard, enter `LogReadFileName` for Name and click **Create**.
+ 
+ - In the **Logger Action** page, select `Always` under Log and click on the **Expression Builder** (pencil icon)
+
+  ![](images/300/Lab300_012.png)   
+
+
 
 
 
