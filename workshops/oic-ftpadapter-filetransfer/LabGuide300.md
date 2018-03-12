@@ -66,7 +66,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 ## Configure the FTP Connection (ReadFile & WriteFile)
 
-Let's start with the ReadFile operation.
+Let's start with the **ReadFile** operation.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
@@ -77,7 +77,6 @@ Let's start with the ReadFile operation.
   ![](images/300/Lab300_007.png)   
 
 - In the **Basic Info** page, enter `ReadFile` for endpoint name and click **Next**.
-
   
 - In the **Operations** page, enter the following information and click **Next**.
   
@@ -100,7 +99,15 @@ Let's start with the ReadFile operation.
 - Click **Done**.
 
 
-Let's continue with the WriteFile operation.
+Let's continue with the **WriteFile** operation.
+
+- In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
+
+  ![](images/300/Lab300_006.png)   
+
+- Drag and drop your connection **FTPConnection_XX** below the **ReadFile** operation in to the circle with plus sign. You will see the plus sign twirling when ready to drop.
+
+  ![](images/300/Lab300_008.png)   
 
 
 
