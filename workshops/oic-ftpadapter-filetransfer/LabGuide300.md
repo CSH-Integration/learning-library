@@ -145,10 +145,27 @@ Let's start with the first **Logger** action to indicate a file read.
 
 - In the **Create Action** wizard, enter `LogReadFileName` for Name and click **Create**.
  
- - In the **Logger Action** page, select `Always` under Log and click on the **Expression Builder** (pencil icon)
+- In the **Logger Action** page, select `Always` under Log and click on the **Expression Builder** (pencil icon)
 
   ![](images/300/Lab300_012.png)   
 
+Well will create a new expression that will show the file name in the logger.  
+
+- Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
+
+  ![](images/300/Lab300_013.png)   
+
+- Drag and drop the **concat** function in to the **Expression** text area.
+
+  ![](images/300/Lab300_014.png)   
+
+- Replace the **string1** of the expression with the static value `Filename is: `. 
+
+- We will copy the file name variable as the second string parameter. Select the **string2** text in the expression, and press **Delete**. Leave the cursor where the second parameter should be entered.
+
+  ![](images/300/Lab300_015.png)   
+
+- In the **Source** pane, expand $ReadFile > $SynchReadFileResponse > FileReadResponse > [Load More] > FTPResponseHeader. Drag and drop **fileName** in to the **string2** 
 
 
 
