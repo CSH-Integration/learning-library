@@ -64,15 +64,15 @@ Connections allow Integration Cloud to interact with an application instance. A 
 
 
 
-## Configure the FTP Connection (ReadFile & WriteFile)
+## Configure the FTP Connections (ReadFile & WriteFile)
 
-Let's start with the **ReadFile** operation.
+Let's start with the **ReadFile** connection.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
   ![](images/300/Lab300_006.png)   
 
-- Drag and drop your connection **FTPConnection_XX** in to the circle with plus sign. You will see the plus sign twirling when ready to drop.
+- Drag and drop your connection **FTPConnection_XX** in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
 
   ![](images/300/Lab300_007.png)   
 
@@ -98,19 +98,41 @@ Let's start with the **ReadFile** operation.
   
 - Click **Done**.
 
+- Click **Save** on the main canvas to save your work.
 
-Let's continue with the **WriteFile** operation.
+Let's continue with the **WriteFile** connection.
 
 - In the **Invokes** panel, expand the **FTP** heading, and find your connection, under **FTPConnection_XX**
 
   ![](images/300/Lab300_006.png)   
 
-- Drag and drop your connection **FTPConnection_XX** below the **ReadFile** operation in to the circle with plus sign. You will see the plus sign twirling when ready to drop.
+- Drag and drop your connection **FTPConnection_XX** below the **ReadFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
 
   ![](images/300/Lab300_009.png)   
 
+- In the **Basic Info** page, enter `WriteFile` for endpoint name and click **Next**.
 
+- - In the **Operations** page, enter the following information and click **Next**.
+  
+  **Select Operation**: `Write File`
+  
+  **Select a Transfer Mode**: `ASCII`
 
+  **Output Directory**: `/upload`
+
+  **File Name Pattern**: `XX_1KB%yyMMddHHmmssSS%.zip` (where `XX` should be your initials)
+
+  **Enable PGP Security**: `No`
+
+  **Do you want to define a schema for this endpoint?**: `No`
+  
+- Validate your values in the **Summary Page**.
+
+  ![](images/300/Lab300_010.png)   
+
+- Click **Done**.
+
+- Click **Save** on the main canvas to save your work.
 
 
 
