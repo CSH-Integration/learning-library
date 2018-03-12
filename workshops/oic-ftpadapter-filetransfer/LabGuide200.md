@@ -62,7 +62,7 @@ Connections allow Integration Cloud to interact with an application instance. A 
   
 - Next, click **Configure Security** to configure the connection security settings. Enter the following information in the **Credentials** dialog (only required fields are shown):
 
-  - For **Security Policy**, select **FTP Server Access Policy**.
+  - **Security Policy**: `FTP Server Access Policy` (dafault value)
   
   - **User name**: `anonymous`
   
