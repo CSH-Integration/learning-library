@@ -128,10 +128,12 @@ Let's continue with the **FTP Adapter** for the **Write File** operation. We wil
 
 - Click **Save** on the main canvas to save your work.
 
+Observe that the orchestration's design palette is populated with the Connections **ReadFile** and **WriteFile** just created along with their mapping.
+
 ## Create Logging Messages
 A logging message is created to indicate that the file name has been read. Another logging message is created to indicate the file name has been uploaded to the `/upload` directory Both messages are logged to the activity stream.
 
-Let's start with the first **Logger** action to indicate a file read.
+Let's start with the first **Logger** action to indicate a file read has occurred.
 
 - In the **Action** panel,  drag and drop the **Logger** action after the **ReadFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
 
@@ -163,11 +165,25 @@ Well will create a new expression that will show the file name in the logger.
 
   ![](images/300/Lab300_016.png)   
 
-- Click on **Validate** and verify the message **Expression is valid and ready to use.** 
+- Click on **Validate**.
 
   ![](images/300/Lab300_017.png)   
 
-- Click on **Close** in the upper right.
+- Click on **Close** in the upper right and return to the **Logger Action** canvas.
+
+- Click on **Validate**, then **Close** to exit the **Logger Action** canvas.
+
+  ![](images/300/Lab300_017.png)   
+
+- Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
+
+Let's continue with the next **Logger** action to log the write file info. 
+
+- In the **Action** panel,  drag and drop the **Logger** action after the **WrriteFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
+
+ image
+
+- In the **Create Action** wizard, enter `LogWriteFileInfo` for Name and click **Create**.
 
 
 
