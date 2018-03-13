@@ -294,9 +294,38 @@ An assign action is configured to assign variables for the file name and file si
 
     ![](images/300/Lab300_031.png)
 
-
+- Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
 
 ## Map the data
+The mapping objects were automatically created when we added the connections. We will configure a mapping action to connect the fields to the **WriteFile** connection. For this lab, only the **Map to WriteFile** mapping is required. 
+
+First, remove the ReadFile mapping.
+
+- Click on the **Map to ReadFile** mapping. 
+
+- Next, click on the **pencil icon** to edit the mapping. Then, click on **Delete**. 
+
+    ![](images/300/Lab300_032.png)
+
+- In the **Delete Map Action?** dialog, click **Delete**.
+
+   ![](images/300/Lab300_033.png)
+
+Now let's complete the WriteFile mapping. We only need to map the **FileReference** variable.
+
+- Click on the **Map to WriteFile** mapping, then click on the **pencil icon** to edit the mapping.
+
+  ![](images/300/Lab300_034.png)
+
+- In the **Source** variable section, click on **$ReadFile > SyncReadFileResponse > FileReadResponse > ICSFile > FileReference**.
+
+- Click on the little circle to the right of the **FileReference** source variable and then drag it on top of the little circle just to the left of the **FileReference** target variable under **WriteFile > ICSFile**.
+
+  ![](images/300/Lab300_035.png)
+
+-  Select the **Validate** button in the upper right of the mapping editor. After validating, select the **Close** button also in the upper right
+
+  ![](images/300/Lab300_036.png)
 
 
 ## Track Fields
