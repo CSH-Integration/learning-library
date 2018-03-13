@@ -165,13 +165,11 @@ Well will create a new expression that will show the file name in the logger.
 
   ![](images/300/Lab300_016.png)   
 
-- Click on **Validate**.
+- Click on **Validate**, then **Close** in the upper right to exit the  **Log Message** expression builder canvas.
 
   ![](images/300/Lab300_017.png)   
 
-- Click on **Close** in the upper right and return to the **Logger Action** canvas.
-
-- Click on **Validate**, then **Close** to exit the **Logger Action** canvas.
+- Click on **Validate**, then **Close** in the upper right to exit the **Logger Action** canvas.
 
   ![](images/300/Lab300_017.png)   
 
