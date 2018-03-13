@@ -228,7 +228,7 @@ We will create a new expression that will show the file info in the logger.
 - Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
 
 ## Configure an Assign action
-We will assign two variables to the integration using the assignment editor.
+An assign action is configured to assign variables for the file name and file size. This enables you to track issues based on filename and size. 
 
 - In the **Action** panel, drag and drop the **Assign** action after the **LogReadFileName** logger in to the circle with the plus sign. You will see the plus sign twirling when ready to drop. 
 
@@ -236,24 +236,63 @@ We will assign two variables to the integration using the assignment editor.
 
 - In the **Create Action** wizard, enter `AssignTrackingVariable` for **Name** and click **Create**.
 
-- In the **Assign** page, click on the ![](images/300/Lab300_assign-add-icon.png) icon to add a new variable called `tracking_var_2`.
+- In the **Assign** page, click on the ![](images/300/Lab300_assign-add-icon.png) icon to configure the first variable.
 
-- Assign the following information tot eh first variable.
+- Assign the following information tot the first variable.
 
-  - **Variable**: `tracking_var_2`
-  
+  - **Variable**: Select the variable called `tracking_var_2` from the drop down
+    
   - **Data Type**: `simple` (default)
 
   - **Value**: 
     - Click on the pencil button to open the Expression editor. 
+
     - Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
     ![](images/300/Lab300_013.png)
-    - 
+    - Drag and drop the **concat** function in to the **Expression** text area.
+    ![](images/300/Lab300_014.png)
+    - Replace the **string1** of the expression with the static value (including quotes) `"Filename: "`.
 
+    - Copy the file name variable as the second string parameter. Select the **string2** text in the expression, and press **Delete**. Leave the cursor where the second parameter should be entered.
 
+    - In the **Source** pane, expand **$ReadFile > SynchReadFileResponse > FileReadResponse > ICSFile > [Load More] > Properties > [Load More]**. Make sure the cursor is in the position of the second parameter. Select the `filename` element and click on the right arrow icon ![](Lab300_expression-copy-icon.png) to copy it as parameter in the **concat** function.
 
+    ![](images/300/Lab300_027.png)
 
+    - Click on **Validate**, then **Close** in the upper right to exit the **tracking_var_2** expression builder canvas.
 
+    ![](images/300/Lab300_028.png)
+
+-  Next, click again on the ![](images/300/Lab300_assign-add-icon.png) icon to configure the second variable.
+
+- Assign the following information tot the second variable.
+
+  - **Variable**: Select the variable called `tracking_var_3` from the drop down
+    
+  - **Data Type**: `simple` (default)
+
+  - **Value**: 
+    - Click on the pencil button to open the Expression editor. 
+
+    - Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
+    ![](images/300/Lab300_013.png)
+    - Drag and drop the **concat** function in to the **Expression** text area.
+    ![](images/300/Lab300_014.png)
+    - Replace the **string1** of the expression with the static value (including quotes) `"Filesize: "`.
+
+    - Copy the file size variable as the second string parameter. Select the **string2** text in the expression, and press **Delete**. Leave the cursor where the second parameter should be entered.
+
+    - In the **Source** pane, expand **$ReadFile > SynchReadFileResponse > FileReadResponse > ICSFile > [Load More] > Properties > [Load More]**. Make sure the cursor is in the position of the second parameter. Select the `filesize` element and click on the right arrow icon ![](Lab300_expression-copy-icon.png) to copy it as parameter in the **concat** function.
+
+    ![](images/300/Lab300_029.png)
+
+    - Click on **Validate**, then **Close** in the upper right to exit the **tracking_var_3** expression builder canvas.
+
+    ![](images/300/Lab300_030.png)
+
+- Verify the two variables. Next, click on **Validate**, then **Close** in the upper right to exit the **AssignTrackingVariable** canvas.
+
+    ![](images/300/Lab300_031.png)
 
 
 
