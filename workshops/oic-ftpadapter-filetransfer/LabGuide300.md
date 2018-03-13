@@ -139,13 +139,13 @@ Let's start with the first **Logger** action to indicate a file read has occurre
 
   ![](images/300/Lab300_011.png)   
 
-- In the **Create Action** wizard, enter `LogReadFileName` for Name and click **Create**.
+- In the **Create Action** wizard, enter `LogReadFileName` for **Name** and click **Create**.
  
 - In the **Logger Action** page, select `Always` under Log and click on the **Expression Builder** (pencil icon)
 
   ![](images/300/Lab300_012.png)   
 
-Well will create a new expression that will show the file name in the logger.  
+We will create a new expression that will show the file name in the logger.  
 
 - Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
 
@@ -171,22 +171,79 @@ Well will create a new expression that will show the file name in the logger.
 
 - Click on **Validate**, then **Close** in the upper right to exit the **Logger Action** canvas.
 
-  ![](images/300/Lab300_017.png)   
+  ![](images/300/Lab300_018.png)   
 
 - Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
 
 Let's continue with the next **Logger** action to log the write file info. 
 
-- In the **Action** panel,  drag and drop the **Logger** action after the **WrriteFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
+- In the **Action** panel,  drag and drop the **Logger** action after the **WriteFile** connection in to the circle with the plus sign. You will see the plus sign twirling when ready to drop.
 
- image
+  ![](images/300/Lab300_019.png)   
 
-- In the **Create Action** wizard, enter `LogWriteFileInfo` for Name and click **Create**.
+- In the **Create Action** wizard, enter `LogWriteFileInfo` for **Name** and click **Create**.
 
+- In the **Logger Action** page, select `Always` under Log and click on the **Expression Builder** (pencil icon)
 
+  ![](images/300/Lab300_012.png)   
 
+We will create a new expression that will show the file info in the logger.  
+
+- Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
+
+  ![](images/300/Lab300_013.png)   
+
+- Drag and drop the **concat** function in to the **Expression** text area.
+
+  ![](images/300/Lab300_014.png)   
+
+- Replace the **string1** of the expression with the static value (including quotes) `"The file "`. 
+
+- We will copy the file name variable as the second string parameter. Select the **string2** text in the expression, and press **Delete**. Leave the cursor where the second parameter should be entered.
+
+  ![](images/300/Lab300_020.png)   
+
+- In the **Source** pane, expand WriteFile > WriteFileResponse > FTPWriteResponse. Make sure the cursor is in the position of the second parameter. Select the **fileName** element and click on the right arrow icon ![](images/300/Lab300_expression-copy-icon.png) to copy it as parameter in the **concat** function.  
+
+  ![](images/300/Lab300_021.png)   
+
+- Add a third parameter by inserting the following static value (including comma and quotes) at the end of the Expression: `, "has been uploaded to "`. 
+
+  ![](images/300/Lab300_022.png)   
+
+- Add a fourth and final parameter, using the **directory** variable. Start by adding a comma and space (`, `) at the end of the expression and keep the cursor on that last position, just before the closing parenthesis bracket.  
+
+- In the **Source** pane, expand WriteFile > WriteFileResponse > FTPWriteResponse. Make sure the cursor is in the position of the second parameter. Select the **directory** element and click on the right arrow icon ![](images/300/Lab300_expression-copy-icon.png) to copy it as parameter in the **concat** function.  
+
+  ![](images/300/Lab300_023.png)   
+
+- Click on **Validate**, then **Close** in the upper right to exit the  **Log Message** expression builder canvas.
+
+  ![](images/300/Lab300_024.png)   
+
+- Click on **Validate**, then **Close** in the upper right to exit the **Logger Action** canvas.
+
+  ![](images/300/Lab300_025.png)   
+
+- Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
 
 ## Configure an Assign action
+We will assign two variables to the integration using the assignment editor.
+
+- In the **Action** panel, drag and drop the **Assign** action after the **LogReadFileName** logger in to the circle with the plus sign. You will see the plus sign twirling when ready to drop. 
+
+  ![](images/300/Lab300_026.png)   
+
+- In the **Create Action** wizard, enter `AssignTrackingVariable` for **Name** and click **Create**.
+
+- In the **Assign** page, click on the ![](images/300/Lab300_assign-add-icon.png) icon to add a new variable.
+- 
+
+
+
+
+
+
 
 
 ## Map the data
