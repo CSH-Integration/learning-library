@@ -58,12 +58,6 @@ Connections allow Integration Cloud to interact with an application instance. A 
   ![](images/300/Lab300_005.png)   
 
 
-
-
-    
-
-
-
 ## Configure the FTP Connections (ReadFile & WriteFile)
 
 Let's start with the **FTP Adapter** for the **Read File** operation. We will configure a read file in binary mode from an inbound directory of the server specified in the **Connections** page. No schema is defined for this file transfer, so it is treated as an attachment.
@@ -80,13 +74,13 @@ Let's start with the **FTP Adapter** for the **Read File** operation. We will co
   
 - In the **Operations** page, enter the following information and click **Next**.
   
-  **Select Operation**: `Read a File`
+  - **Select Operation**: `Read a File`
   
-  **Select a Transfer Mode**: `Binary`
+  - **Select a Transfer Mode**: `Binary`
 
-  **Input Directory**: `/`
+  - **Input Directory**: `/`
 
-  **File Name**: `1KB.zip`
+  - **File Name**: `1KB.zip`
 
 - In the **Schema** page, enter the following information and click **Next**.
 
@@ -114,17 +108,17 @@ Let's continue with the **FTP Adapter** for the **Write File** operation. We wil
 
 - In the **Operations** page, enter the following information and click **Next**.
   
-  **Select Operation**: `Write File`
+  -  **Select Operation**: `Write File`
   
-  **Select a Transfer Mode**: `ASCII`
+  - **Select a Transfer Mode**: `ASCII`
 
-  **Output Directory**: `/upload`
+  - **Output Directory**: `/upload`
 
-  **File Name Pattern**: `XX_1KB%yyMMddHHmmssSS%.zip` (where `XX` should be your initials)
+  - **File Name Pattern**: `XX_1KB%yyMMddHHmmssSS%.zip` (where `XX` should be your initials)
 
-  **Enable PGP Security**: `No`
+  - **Enable PGP Security**: `No`
 
-  **Do you want to define a schema for this endpoint?**: `No`
+  - **Do you want to define a schema for this endpoint?**: `No`
   
 - Validate your values in the **Summary Page**.
 
@@ -159,13 +153,21 @@ Well will create a new expression that will show the file name in the logger.
 
   ![](images/300/Lab300_014.png)   
 
-- Replace the **string1** of the expression with the static value `Filename is: `. 
+- Replace the **string1** of the expression with the static value (including quotes) `"Filename is: "`. 
 
 - We will copy the file name variable as the second string parameter. Select the **string2** text in the expression, and press **Delete**. Leave the cursor where the second parameter should be entered.
 
   ![](images/300/Lab300_015.png)   
 
-- In the **Source** pane, expand $ReadFile > $SynchReadFileResponse > FileReadResponse > [Load More] > FTPResponseHeader. Drag and drop **fileName** in to the **string2** 
+- In the **Source** pane, expand $ReadFile > $SynchReadFileResponse > FileReadResponse > [Load More] > FTPResponseHeader. Make sure the cursor is in the position of the second parameter. Select the **fileName** element and click on the right arrow icon ![](images/300/Lab300_expression-copy-icon.png) to copy it as parameter in the **concat** function.  
+
+  ![](images/300/Lab300_016.png)   
+
+- Click on **Validate** and verify the message **Expression is valid and ready to use.** 
+
+  ![](images/300/Lab300_017.png)   
+
+- Click on **Close** in the upper right.
 
 
 
