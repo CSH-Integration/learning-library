@@ -247,7 +247,7 @@ We will assign two variables to the integration using the assignment editor.
   - **Value**: 
     - Click on the pencil button to open the Expression editor. 
     - Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
-       ![](images/300/Lab300_013png)   
+    ![](images/300/Lab300_013.png)
     - 
 
 
