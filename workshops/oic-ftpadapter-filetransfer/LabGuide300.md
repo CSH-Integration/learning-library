@@ -236,8 +236,19 @@ We will assign two variables to the integration using the assignment editor.
 
 - In the **Create Action** wizard, enter `AssignTrackingVariable` for **Name** and click **Create**.
 
-- In the **Assign** page, click on the ![](images/300/Lab300_assign-add-icon.png) icon to add a new variable.
-- 
+- In the **Assign** page, click on the ![](images/300/Lab300_assign-add-icon.png) icon to add a new variable called `tracking_var_2`.
+
+- Assign the following information tot eh first variable.
+
+  - **Variable**: `tracking_var_2`
+  
+  - **Data Type**: `simple` (default)
+
+  - **Value**: 
+    - Click on the pencil button to open the Expression editor. 
+    - Go to the **Components** pane, and search for the **concat** function. Enter `concat`and click **Enter**.
+       ![](images/300/Lab300_013png)   
+    - 
 
 
 
