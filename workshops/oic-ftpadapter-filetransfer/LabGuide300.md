@@ -367,7 +367,9 @@ This integration is now complete. We now need to activate (deploy) it so it can 
  
    ![](images/300/Lab300_041.png)
   
+Once the integration is activated, you will see a green colored activation slider with a checkmark in it.
 
+![](images/300/Lab300_042.png)
 
 
 
