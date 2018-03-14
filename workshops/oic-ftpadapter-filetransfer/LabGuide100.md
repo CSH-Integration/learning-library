@@ -1,12 +1,13 @@
-# Lab 100 - Explore Oracle Integration Cloud
+# File Transfer with Oracle Integration Cloud 
+## Lab 100 - Explore Oracle Integration Cloud
 
 ![](images/100/Lab100_title.png)
 
-Updated: 03-09-18
+Updated: 14-Mar-18
 
 ## Introduction
 
-This is the first of several labs that are part of the **CSH Campaign Assets 2018: File Transfer with Oracle Integration Cloud** workshop.
+This is the first of several labs that are part of the **OIC Development** workshop.
 
 In this lab, we will explore the main parts of Oracle Integration Cloud (OIC).  You will acquire a good overview of the Oracle Integration Cloud Service (OIC), the next generation integration platform. You will explore various consoles and tools available to interact with your integration. The exercise will get your familiar with all the tooling available to work with this cloud service. Oracle OIC can function as a central hub for taking in external data feeds, correctly formatting it for ERP Cloud, and automating the final loading of external data into ERP Cloud, With all feeds flowing through OIC, there is greater visibility into the end-to-end data flow between ERP Cloud and external systems. This greatly reduces the integration cost.
 
@@ -257,3 +258,4 @@ We’ll look at the following:
 - You now have used Oracle Integration Cloud Service to explore an integration to HCM Cloud by taking in external data feeds, correctly formatting it for HCM Cloud.
 
 - This OIC Overview Lab is now completed.
+
