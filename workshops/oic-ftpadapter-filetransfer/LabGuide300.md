@@ -2,7 +2,7 @@
 
 ![](images/300/Lab300_title.png)
 
-Updated: 11-Mar-2018
+Updated: 13-Mar-2018
 
 ## Introduction
 
@@ -327,10 +327,48 @@ Now let's complete the WriteFile mapping. We only need to map the **FileReferenc
 
   ![](images/300/Lab300_036.png)
 
+- Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window.
+
+The final step in creating this integration is to add tracking variables.
 
 ## Track Fields
 
+We want to add the **startTime** tracking field as a **Business Identifier**, enabling runtime tracking on messages. These identifiers will be saved in the **Integration Cloud** monitoring tab for each instance of the integration that is run.
+
+- From the orchestration's design palette, click on the **Hamburger** icon, then click on the **Tracking** menu item to bring up the business identifier editor.
+
+  ![](images/300/Lab300_037.png)
+
+- Click on the **startTime** variable under Source and move it over to the row with **tracking_var_1** and drop it under the **Tracking Field** column.
+
+  ![](images/300/Lab300_038.png)
+
+  Observe that the **startTime** variable has now been added as a **Tracking Field**. The source variable name is also added as the **Tracking Name** by default – since **startTime** means something and is suitable for people to read in the monitoring tab we’ll keep it. If the comment variable was something random like **ST**, we would want to change it and give it a human-readable tracking name.
+
+- Click the **Save** button now that the new **Business Identifier** has been added.
+
+- Here is how your completed integration will look. Save the progress of your orchestration by clicking on the **Save** icon in the upper right of the design window. Then click on **Close** and return to the **Integrations** pane. 
+
+  ![](images/300/Lab300_039.png)
+
+This integration is now complete. We now need to activate (deploy) it so it can be used. 
 
 ## Activate the Integration
+
+- Click on the **Activate Switch / Slider** the right of the **FileTransfer_XX** of the **Integrations** pane.
+
+  ![](images/300/Lab300_040.png)
+
+- In the **Activate Integration?** dialog, make the following choices.
+  - **Contribute integration mappings to Oracle Recommendations Engine.**: `DISABLED`
+  - **Enable tracing**: `ENABLED`
+  - **Include Payload**: `ENABLED` (visible after tracing is enabled)
+  - Click on **Activate**.
+ 
+   ![](images/300/Lab300_041.png)
+  
+
+
+
 
 
