@@ -1,4 +1,4 @@
-# CSH Campaign Assets 2018: File Transfer with Oracle Integration Cloud (Lab 100 - Explore Oracle Integration Cloud)
+# Lab 100 - Explore Oracle Integration Cloud
 
 ![](images/100/Lab100_title.png)
 
