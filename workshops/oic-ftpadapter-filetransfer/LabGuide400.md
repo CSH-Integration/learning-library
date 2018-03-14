@@ -1,6 +1,8 @@
 # Lab 400 - Testing the Integration
 
-Updated: 03-09-18
+![](images/400/Lab400_title.png)
+
+Updated: 13-Mar-2018
 
 ## Introduction
 
