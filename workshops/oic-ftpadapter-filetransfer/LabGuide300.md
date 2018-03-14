@@ -8,7 +8,7 @@ Updated: 13-Mar-2018
 
 This is the third of several labs that are part of the **CSH Campaign Assets 2018: File Transfer with Oracle Integration Cloud**. This workshop will demonstrate how to read an opaque file from a *inbound* directory and write the file to an *upload* directory in a scheduled orchestrated integration. 
 
-In this lab, you will learn how to create a basic File Transfer integration, using a scheduled orchestration. This integration will use the FTP connection creation in the previous lab (200).
+In this lab, you will learn how to create a basic File Transfer integration using a scheduled orchestration. This integration will use the FTP connection creation in the previous lab (200).
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
