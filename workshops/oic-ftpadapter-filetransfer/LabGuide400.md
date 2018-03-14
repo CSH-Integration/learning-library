@@ -40,7 +40,9 @@ View the following message at the top of the page. You are ready to monitor the 
 
 ## Monitor the results
 
--   In the navigation pane, click ![](images/400/Lab400_previous-arrow-icon.png) arrow next to **Designer**.
+### **STEP 2** Open Activity Streams
+
+-   In the navigation pane, click ![](images/400/Lab400_previous-arrow-icon.png) icon next to **Designer**.
     
 -   Click **Monitoring**, then click **Dashboards**.
 
@@ -57,4 +59,12 @@ By default, the **Dashboard** page displays overall system status, including the
 
   ![](images/400/Lab400_005.png)
 
-- In the navigation pane, click Tracking and note that the File Transfer sample integration instance is listed as completed. You can see the filename and file size, which enables you to look for particular files in case of problems.
+- In the **Monitoring** navigation pane, click **Tracking** and note that the **FileTransfer_XX** integration instance is listed as completed. You can see the filename and file size, which enables you to look for particular files in case of problems.
+
+  ![](images/400/Lab400_006.png)
+
+- In the **Monitoring** navigation pane, click **Integrations** and note that the message was successfully received and processed without any errors. For this example, **Schedule is not defined** is displayed because this scheduled integration was invoked with the **Submit Now** option.
+
+  ![](images/400/Lab400_007.png)
+
+Congratulations! You have now completed the final lab of the **File Transfer with Oracle Integration Cloud** Workshop.  
