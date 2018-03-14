@@ -1,4 +1,4 @@
-# Lab 200 - Create File Transfer integration
+# Lab 300 - Create File Transfer integration
 
 ![](images/300/Lab300_title.png)
 
