@@ -1,4 +1,4 @@
-# CSH Campaign Assets 2018: File Transfer with Oracle Integration Cloud
+# Lab 200 - Create File Transfer integration
 
 ![](images/300/Lab300_title.png)
 
