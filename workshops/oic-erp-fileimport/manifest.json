@@ -1,0 +1,46 @@
+{
+    "workshop": {
+        "title": "ICS HCM Workshop",
+        "description": "Description of this workshop.",
+        "theme": "default",
+        "interactive":"https://launch.oracle.com/?cloudnative",
+        "labs": [
+            {
+                "number": "0",
+                "filename": "README.md",
+                "title": "Read Me First",
+                "description": "Step-by-step workshop instructions"
+            },
+            {
+                "number": "0",
+                "filename": "StudentGuide.md",
+                "title": "Prerequisites",
+                "description": "Workshop guidance and prerequisites"
+            },
+            {
+                "number": "100",
+                "filename": "LabGuide100.md",
+                "title": "Lab 100: Exploring ICS",
+                "description": "Exploring the capabilities of the ICS user interface"
+            },
+            {
+                "number": "200",
+                "filename": "LabGuide200.md",
+                "title": "Lab 200:  Creating Connections",
+                "description": "Use ICS to create connections for the SOAP and FTP connections."
+            },
+            {
+                "number": "300",
+                "filename": "LabGuide300.md",
+                "title": "Lab 300:  ICS Development",
+                "description": "Creating the integrations using the connections for data flow"
+            },
+            {
+                "number": "400",
+                "filename": "LabGuide400.md",
+                "title": "Lab 400: HCM Integration",
+                "description": "Verification of the integration data flow and check in HCM"
+            }
+        ]
+    }
+}
