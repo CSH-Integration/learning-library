@@ -27,7 +27,9 @@ In this lab, you will learn how to create a basic ICS Integration using the conn
 - Enter your `User Name` and `Password` and click **Sign In** same way as done in Lab 100.
 
  **NOTE:** the **User Name and Password** values will be given to you by your instructor.
-
+ 
+ - Once you enter, it should look like below screenshot.
+ 
  	![](images/100/image003.png)
 
  - You are presented with the home page and overlay for the ICS Service Console - which we already went through ICS in Lab 100
