@@ -73,7 +73,7 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 - Security policy would be **FTP Server Access Policy**.
 
-- Enter the **User Name** and **Password** provided.
+- Enter the **User Name** and **Password** provided by instructor.
 
 - Click on **ok**.
 
