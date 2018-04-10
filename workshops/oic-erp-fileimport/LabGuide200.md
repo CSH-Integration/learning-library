@@ -26,8 +26,9 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 - Once you enter the required details, it should look like below screenshot.
 
-	![](images/200/image003.png)
-	![](images/200/image003.png)
+	![](images/200/image001a.png)
+	![](images/200/image001b.png)
+
 
 ## Creating connections
 
