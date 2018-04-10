@@ -24,6 +24,8 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 **NOTE:** **User Name** and **Password** values will be given to you by your instructor. See _Lab 100 - Login to your Oracle Cloud Account_ for more information on how to sign into the ICS home page. Once you login to ICS home page, click on 'Integration' on left hand side menu bar and once the integration page loads click on 'Connections' on the left hand side menu. This will load the connections page where we shall work on creating connections for the integraton.
 
+- Below screenshots provide the 
+
 	![](images/200/image003.png)
 	![](images/200/image003.png)
 
