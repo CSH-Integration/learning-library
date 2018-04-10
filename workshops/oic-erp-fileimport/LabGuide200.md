@@ -57,7 +57,7 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 - Click on **Configure Connectivity** under **Connection Properties** section.
 
-- There are 3 files we need to fill up.
+- There are 3 fields we need to fill up.
 
 - Enter the **FTP Server Host Address** field with the host address.
 
