@@ -53,6 +53,8 @@ In this lab, you will learn how to create a basic ICS Integration using the conn
 
 - Now go back to the "Integrations".
 
+	![](images/100/image004f.png)
+
 ### **STEP 3** ICS Development
 
 - Creating Integration 
