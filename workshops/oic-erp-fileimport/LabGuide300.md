@@ -28,7 +28,7 @@ In this lab, you will learn how to create a basic ICS Integration using the conn
 
  **NOTE:** the **User Name and Password** values will be given to you by your instructor.
  
- - Once you enter, it should look like below screenshot.
+ - Once you enter the required details, it should look like below screenshot.
  
  	![](images/100/image003.png)
 
