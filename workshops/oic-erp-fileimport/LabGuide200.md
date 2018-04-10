@@ -46,7 +46,7 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 - Fill in the information for the new connection and click **Create**
 
-- **Name** in the form of _ICSERP_FTP_UserXX_ where XX is the number in your allocated user.
+- **Name** in the form of **_ICSERP_FTP_UserXX_** where XX is the number in your allocated user.
 - **Role** _Trigger and Invoke_ since we going to use the connection as an trigger the start of an integration.
 
 	![](images/200/image148.png)
@@ -112,7 +112,7 @@ In this lab, you will learn how to create a basic ICS connection, using a basic 
 
 - Fill in the information for the new connection and click on **create**
 
-- **Name** in the form of _ICSERP_UserXX_ where XX is the number in your allocated user.
+- **Name** in the form of **_ICSERP_UserXX_** where XX is the number in your allocated user.
 - **Role** _Invoke_ since we going to use the connection as an invoke to start the integration
 
 	![](images/200/image145a.png)
