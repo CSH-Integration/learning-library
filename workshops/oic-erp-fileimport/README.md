@@ -8,7 +8,7 @@ Step-by-step Instructions
 
 **To View in Interactive Labguide Format:**  
 
-[GitHub IO Pages](https://kartikshrikanthegde.github.io/ICS-ERP-FileLoading-Workshop/)
+[GitHub IO Pages](https://oracle.github.io/learning-library/workshops/oic-erp-fileimport/)
 
 # ICS-ERP Integration Deep Dive
 
