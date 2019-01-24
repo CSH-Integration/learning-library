@@ -1,0 +1,3 @@
+[submodule "workshops/apipcs-workshop"]
+	path = workshops/apipcs-workshop
+	url = https://github.com/jiaojiao521/API_Workshop.git
