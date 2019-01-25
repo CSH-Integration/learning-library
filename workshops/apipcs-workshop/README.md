@@ -1,6 +1,6 @@
-# Oracle API Platform Cloud Service Workshop
+# Oracle API Platform Workshop
 
-This workshop will walk you through the process of setting up an API Platform instance, install and running an API Gateway, and finally deploy an API to the gateway. 
+This workshop will walk you through the process of setting up an Oracle API Platform instance, install and run an Oracle API Gateway, and finally deploy an API to the gateway. 
 
 To learn more about this product, please follow the link below.
 
