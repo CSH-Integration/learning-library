@@ -1,9 +1,10 @@
-# Name Of The Workshop
+# Oracle API Platform Cloud Service Workshop
 
-Welcome to the ...workshop. This workshop will walk you through the process of...
-To learn more about this workshop please watch the video below.
+This workshop will walk you through the process of setting up an API Platform instance, install and running an API Gateway, and finally deploy an API to the gateway. 
 
-<a href="https://youtu.be/" target="_video">Workshop Overview</a>
+To learn more about this product, please follow the link below.
+
+<a href="https://cloud.oracle.com/api-platform" target="_video">Oracle API Platform portal</a>
 
 ### **Step 1**: Acquire an Oracle Cloud Trial or Workshop Account
 
