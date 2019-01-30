@@ -1,4 +1,4 @@
-# Deploying Gateway to API
+# Deploying an API to the Gateway 
 
 
 
@@ -46,11 +46,12 @@
 3. You will see one Deployed Gateway in the Deployments 
 	![](images/deployed.png)
     
-**Step 7:** Now that the API is deployed, you can invoke it in your favorite REST client. Then click Send
+**Step 7:** Now that the API is deployed, you can invoke it in your favorite REST client (here I test it on Postman). 
 	- URL: your URL
 	- Method: GET
 	- Headers: (optional)
 	- Accept: application/json
+	- Click **Send**
 	![](images/postman.png)
 
 **Now you should be able to receive your mock data!**
