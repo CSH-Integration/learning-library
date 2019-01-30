@@ -206,12 +206,14 @@
 4. Additionally, run the following command to open the firewall of your instance
   
   - if your instance is on Linux 6.10, run the following command:
-  > **[opc@xj-ol610 downloads]$ sudo iptables -I INPUT 1 -p tcp --dport 8011 -j ACCEPT**
-  > **[opc@xj-ol610 downloads]$ sudo iptables -I INPUT 1 -p tcp --dport 9022 -j ACCEPT**
+    > **[opc@xj-ol610 downloads]$ sudo iptables -I INPUT 1 -p tcp --dport 8011 -j ACCEPT**
+    
+    > **[opc@xj-ol610 downloads]$ sudo iptables -I INPUT 1 -p tcp --dport 9022 -j ACCEPT**
   
   - if your instance is on Linux 7.5 & later, run the following command: 
-  > **$ sudo ym install firewalld**
-  > **$ sudo firewall-cmd —-permanent —add-port=8011/tcp**
+    > **$ sudo ym install firewalld**
+    
+    > **$ sudo firewall-cmd —-permanent —add-port=8011/tcp**
   
 5. If not already done, install Oracle certified JDK 1.8+ and set JAVA_HOME.
 
