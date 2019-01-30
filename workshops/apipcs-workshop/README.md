@@ -17,8 +17,23 @@ To learn more about this product, please follow the link below.
   ![](images/common/cloud_ready.jpg)
 
 
-### **Step 2**: Navigate to Lab 100
+### **Step 2**: Navigate to Lab 100- Creating Gateway on OCI
 
 - _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with **Lab 100**.
 
   ![](images/common/WorkshopMenu.png)
+
+For this lab you will need:
+
+- Generate SSH Public and Private Key
+- Download FileZila (Mac) or MoBaXTerm (Windows)
+- Generate mock data on Apirary (optional)
+
+### **Step 3**: Navigate to Lab 200- Deploying an API to the Gateway
+
+- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with **Lab 200**.
+
+
+
+
+
